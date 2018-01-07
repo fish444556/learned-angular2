@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<a (click)=showForm()>Open Contact SlideOut</a>
+<app-my-form
+  [show]="formShow"
+  (childShow) = "changeShow($event)"
+></app-my-form>
+

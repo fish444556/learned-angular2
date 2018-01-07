@@ -1,0 +1,41 @@
+#my-form {
+  width: 30%;
+  border: 1px solid black;
+  float: right;
+}
+
+
+header {
+  border-bottom: 1px solid black;
+  padding: 1em;
+}
+
+header button {
+  float: right;
+  border: none;
+  background:none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+label {
+  padding: 0.5em;
+  display: block;
+}
+
+.container {
+  padding: 1em;
+}
+
+footer {
+  padding: 1em;
+  border-top: 1px solid black;
+}
+
+footer button {
+  float: right;
+  margin-bottom: 1em;
+  width: 50%;
+  border-radius: 3%;
+  background: none;
+}

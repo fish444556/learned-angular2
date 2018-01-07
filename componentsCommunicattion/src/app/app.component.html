@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h3>Name:
+  <span style="color:green;font-size:18px">{{selectdEmployeeData.selectedName}}</span>
+</h3>
+<h3>City:
+  <span style="color:green;font-size:18px">{{selectdEmployeeData.selectedCity}}</span>
+</h3>
+<h3>Salary:
+  <span style="color:green;font-size:18px">{{selectdEmployeeData.selectedSalary}}</span>
+</h3>
+
+<app-child
+[name]="employee.eName"
+[city]="employee.eCity"
+[salary]="employee.eSalary"
+(sendRecord) = "getRecord($event)"
+*ngFor="let employee of employeeRecord">
+Display here
+</app-child>
